@@ -2,7 +2,7 @@ from selenium import webdriver
 import time
 
 ss = "ohji1006"
-ww = "lezhin.net!"
+ww = ""
 driver = webdriver.Chrome('C:/Users/Life_is_marathon/Desktop/needable_pack/chromedriver')
 driver.implicitly_wait(3)
 # driver.get('https://nid.naver.com/nidlogin.login')
