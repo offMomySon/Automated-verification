@@ -22,6 +22,8 @@ driver.get('http://www.naver.com')
 driver.maximize_window()
 
 
+
+
 driver.find_element_by_class_name('lg_local_btn').click()
 driver.find_element_by_id('id').send_keys(ss)
 driver.find_element_by_id('pw').send_keys(ww)
